@@ -11,7 +11,8 @@ public class GitBranch {
     }
 
     private int fv() {
-        
+        System.out.println("Nem statikus fv");
+        return 0;
     }
     
 }
