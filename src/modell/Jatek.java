@@ -42,11 +42,10 @@ public class Jatek {
         System.out.print(uzenet);
     }
 
-    private void ellenorzes() {
+    private String ellenorzes() {
         String talalt = "Gratulálok, eltalátad!";
         String nemTalalt = "Sajnos nem találtad el!";
         return Ladak[valasztas].isKincs() ? talalt : nemTalalt;
-       
     }
 }
 
